@@ -1,0 +1,30 @@
+DIPLOMACY = {
+    c:FRA = {
+        # Province of Lower Canada
+		create_diplomatic_pact = {
+			country = c:QUE
+			type = dominion
+		}
+        # Hudson Bay Company has a weird autonomous charter
+		create_diplomatic_pact = {
+			country = c:HBC
+			type = dominion
+		}
+        create_diplomatic_pact = {
+			country = c:LOU
+			type = dominion
+		}
+    }
+
+    c:CLM = {
+        # Gran Columbia
+        create_diplomatic_pact = {
+			country = c:VNZ
+			type = puppet
+		}
+        create_diplomatic_pact = {
+			country = c:ECU
+			type = puppet
+		}
+    }
+}
