@@ -27,4 +27,18 @@ DIPLOMACY = {
 			type = puppet
 		}
     }
+
+    c:ARG = {
+        create_diplomatic_pact = {
+            country = c:BOL
+            type = puppet
+        }
+    }
+
+    c:BRZ = {
+        create_diplomatic_pact = {
+            country = c:URU
+            type = puppet
+        }
+    }
 }
