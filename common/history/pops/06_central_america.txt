@@ -18,7 +18,7 @@
 				size = 312000
 			}
 		}
-		region_state:GBR = {
+		region_state:HAI = {
 			create_pop = {
 				culture = afro_caribbean
 				size = 7104
@@ -90,7 +90,7 @@
 		}
 	}
 	s:STATE_PANAMA = {
-		region_state:CLM = {
+		region_state:UCA = {
 			create_pop = {
 				culture = central_american
 				size = 87792
@@ -147,7 +147,7 @@
 		}
 	}
 	s:STATE_PUERTO_RICO = {
-		region_state:SPA = {
+		region_state:HAI = {
 			create_pop = {
 				culture = caribeno
 				size = 182500
@@ -168,7 +168,7 @@
 		}
 	}
 	s:STATE_BAHAMAS = {
-		region_state:GBR = {
+		region_state:HAI = {
 			create_pop = {
 				culture = british
 				size = 19200
@@ -180,7 +180,7 @@
 		}
 	}
 	s:STATE_WEST_INDIES = {
-		region_state:FRA = {
+		region_state:HAI = {
 			create_pop = {
 				culture = french
 				size = 22200
@@ -189,8 +189,6 @@
 				culture = afro_antillean
 				size = 216104
 			}
-		}
-		region_state:DEN = {
 			create_pop = {
 				culture = danish
 				size = 3992
@@ -199,8 +197,6 @@
 				culture = afro_caribbean
 				size = 39996
 			}
-		}
-		region_state:GBR = {
 			create_pop = {
 				culture = british
 				size = 34704
@@ -216,7 +212,7 @@
 		}
 	}
 	s:STATE_JAMAICA = {
-		region_state:GBR = {
+		region_state:HAI = {
 			create_pop = {
 				culture = afro_caribbean
 				size = 358596
@@ -228,7 +224,7 @@
 		}
 	}
 	s:STATE_CUBA = {
-		region_state:CUB = {
+		region_state:HAI = {
 			# 896400
 			create_pop = {
 				culture = caribeno
