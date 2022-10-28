@@ -369,12 +369,12 @@ STATES = {
 	}
 	s:STATE_GHANA = {
 		create_state = {
-			country = c:GBR
+			country = c:SCA
 			owned_provinces = { x8504E6 }
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:NET
+			country = c:FRA
 			owned_provinces = { x6C8064 }
 			state_type = unincorporated
 
@@ -389,7 +389,7 @@ STATES = {
 	}
 	s:STATE_TOGO = {
 		create_state = {
-			country = c:DEN
+			country = c:SCA
 			owned_provinces = { x802111 }
 			state_type = unincorporated
 

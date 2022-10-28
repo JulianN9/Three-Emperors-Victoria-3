@@ -701,7 +701,7 @@
 		}
 	}
 	s:STATE_GHANA = {
-		region_state:GBR = {
+		region_state:SCA = {
 			create_pop = {
 				culture = akan
 				size = 40204
@@ -715,7 +715,7 @@
 				size = 6984
 			}
 		}
-		region_state:NET = {
+		region_state:FRA = {
 			create_pop = {
 				culture = akan
 				size = 45572
@@ -746,7 +746,7 @@
 		}
 	}
 	s:STATE_TOGO = {
-		region_state:DEN = {
+		region_state:SCA = {
 			create_pop = {
 				culture = akan
 				size = 116308

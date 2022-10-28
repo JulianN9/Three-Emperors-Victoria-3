@@ -330,7 +330,7 @@
 		}
 	}
 	s:STATE_GHANA={
-		region_state:GBR={
+		region_state:SCA={
 			create_building={
 				building="building_port"
 				level=1
@@ -338,7 +338,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:NET={
+		region_state:FRA={
 			create_building={
 				building="building_port"
 				level=1
@@ -362,7 +362,7 @@
 		}
 	}
 	s:STATE_TOGO={
-		region_state:DEN={
+		region_state:SCA={
 			create_building={
 				building="building_dye_plantation"
 				level=1

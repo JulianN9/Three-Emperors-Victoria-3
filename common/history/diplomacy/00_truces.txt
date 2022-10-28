@@ -1,13 +1,4 @@
 ﻿DIPLOMACY = {
-	c:NET = {
-		create_truce = {
-			country = c:BEL
-			months = 7
-		}
-	}	
-}
-
-DIPLOMACY = {
 	c:EGY= {
 		create_truce = {
 			country = c:TUR
@@ -19,17 +10,8 @@ DIPLOMACY = {
 DIPLOMACY = {
 	c:ASH= {
 		create_truce = {
-			country = c:GBR
+			country = c:SCA
 			months = 6
-		}
-	}	
-}
-
-DIPLOMACY = {
-	c:GRE= {
-		create_truce = {
-			country = c:TUR
-			months = 12
 		}
 	}	
 }

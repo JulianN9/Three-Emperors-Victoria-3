@@ -1,30 +1,4 @@
 ﻿DIPLOMACY = {
-	c:SPA = {
-		create_diplomatic_pact = {
-			country = c:CUB
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:PHI
-			type = puppet
-		}	
-	}
-	c:NET = {
-		create_diplomatic_pact = {
-			country = c:LUX
-			type = personal_union
-		}
-		create_diplomatic_pact = {
-			country = c:DEI
-			type = dominion
-		}
-	}
-	c:SWE = {
-		create_diplomatic_pact = {
-			country = c:NOR
-			type = personal_union
-		}
-	}
 	c:RUS = {
 		create_diplomatic_pact = {
 			country = c:FIN
@@ -35,16 +9,6 @@
 		create_diplomatic_pact = {
 			country = c:HOH
 			type = puppet
-		}
-	}		
-	c:DEN = {
-		create_diplomatic_pact = {
-			country = c:HOL
-			type = personal_union
-		}
-		create_diplomatic_pact = {
-			country = c:SCH
-			type = personal_union
 		}
 	}
 	c:CHI = {
@@ -61,12 +25,6 @@
 			type = tributary
 		}			
 	}
-	c:AUS = {
-		create_diplomatic_pact = {
-			country = c:KRA
-			type = puppet
-		}
-	}
 	c:USA = {
 		create_diplomatic_pact = {
 			country = c:LIB
@@ -79,20 +37,12 @@
 	}
 	c:GBR = {
 		create_diplomatic_pact = {
-			country = c:ABU
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:BIC
 			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:SIL
 			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:HAN
-			type = personal_union
 		}
 		create_diplomatic_pact = {
 			country = c:SAF

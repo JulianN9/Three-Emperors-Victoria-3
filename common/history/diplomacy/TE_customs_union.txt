@@ -1,0 +1,28 @@
+﻿DIPLOMACY = {
+	c:FRA = {	
+		create_diplomatic_pact = {
+			country = c:MOD
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:RIT
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:ILL
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:NET
+			type = customs_union
+		}				
+		create_diplomatic_pact = {
+			country = c:NAP
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:SPA
+			type = customs_union
+		}
+	}
+}

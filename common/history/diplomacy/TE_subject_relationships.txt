@@ -69,4 +69,15 @@ DIPLOMACY = {
 			type = puppet
 		}
 	}	
+
+	c:SCA = {
+		create_diplomatic_pact = {
+			country = c:HOL
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:SCH
+			type = personal_union
+		}
+	}
 }
