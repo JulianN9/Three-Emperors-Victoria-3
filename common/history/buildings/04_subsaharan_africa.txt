@@ -58,7 +58,7 @@
 		}
 	}
 	s:STATE_GAMBIA={
-		region_state:POR={
+		region_state:BRZ={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -970,7 +970,7 @@
 		}
 	}
 	s:STATE_MOCAMBIQUE={
-		region_state:POR={
+		region_state:BRZ={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -1114,7 +1114,7 @@
 		}
 	}
 	s:STATE_NORTH_ANGOLA={
-		region_state:POR={
+		region_state:BRZ={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -1148,7 +1148,7 @@
 		}
 	}
 	s:STATE_SOUTH_ANGOLA={
-		region_state:POR={
+		region_state:BRZ={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -1196,7 +1196,7 @@
 		}
 	}
 	s:STATE_ZAMBEZIA={
-		region_state:POR={
+		region_state:BRZ={
 			create_building={
 				building="building_dye_plantation"
 				level=2
@@ -1358,7 +1358,7 @@
 		}
 	}
 	s:STATE_LOURENCO_MARQUES={
-		region_state:POR={
+		region_state:BRZ={
 			create_building={
 				building="building_millet_farm"
 				level=1

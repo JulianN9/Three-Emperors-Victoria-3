@@ -60,7 +60,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:GBR={
+		region_state:HAI={
 			create_building={
 				building="building_port"
 				level=1
@@ -150,7 +150,7 @@
 		}
 	}
 	s:STATE_PANAMA={
-		region_state:CLM={
+		region_state:UCA={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -228,7 +228,7 @@
 		}
 	}
 	s:STATE_PUERTO_RICO={
-		region_state:SPA={
+		region_state:HAI={
 			create_building={
 				building="building_coffee_plantation"
 				level=2
@@ -262,7 +262,7 @@
 		}
 	}
 	s:STATE_BAHAMAS={
-		region_state:GBR={
+		region_state:HAI={
 			create_building={
 				building="building_banana_plantation"
 				level=1
@@ -284,75 +284,35 @@
 		}
 	}
 	s:STATE_WEST_INDIES={
-		region_state:FRA={
+		region_state:HAI={
 			create_building={
 				building="building_sugar_plantation"
-				level=3
+				level=7
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_coffee_plantation"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-		region_state:DEN={
-			create_building={
-				building="building_sugar_plantation"
-				level=1
-				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-		region_state:GBR={
-			create_building={
-				building="building_sugar_plantation"
 				level=3
-				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_port"
-				level=1
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}
 	s:STATE_JAMAICA={
-		region_state:GBR={
+		region_state:HAI={
 			create_building={
 				building="building_banana_plantation"
 				level=1
@@ -380,7 +340,7 @@
 		}
 	}
 	s:STATE_CUBA={
-		region_state:CUB={
+		region_state:HAI={
 			create_building={
 				building="building_rice_farm"
 				level=5

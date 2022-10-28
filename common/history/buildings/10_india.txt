@@ -120,7 +120,7 @@
 		}
 	}
 	s:STATE_DELHI={
-		region_state:BIC={
+		region_state:MUG={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -199,52 +199,32 @@
 			}
 			create_building={
 				building="building_opium_plantation"
-				level=20
+				level=38
 				reserves=1
 				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_dye_plantation"
-				level=5
+				level=13
 				reserves=1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
-				level=20
+				level=25
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
-		}
-		region_state:BIC={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_merchant_guilds_building_furniture_manufacturies" "pm_automation_disabled" "pm_luxury_furniture" }
 			}
-			create_building={
-				building="building_opium_plantation"
-				level=18
-				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=8
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
 		}
 	}
 	s:STATE_GUJARAT={
-		region_state:BER={
+		region_state:MRT={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -310,80 +290,24 @@
 		}
 	}
 	s:STATE_CENTRAL_INDIA={
-		region_state:IND={
+		region_state:MRT={
 			create_building={
 				building="building_opium_plantation"
-				level=5
+				level=10
 				reserves=1
 				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
-				level=10
+				level=45
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
-		}
-		region_state:BUN={
 			create_building={
 				building="building_cotton_plantation"
-				level=1
-				reserves=1
-				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=15
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
-			}
-		}
-		region_state:GWA={
-			create_building={
-				building="building_cotton_plantation"
-				level=1
-				reserves=1
-				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_opium_plantation"
 				level=3
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
-			}
-		}
-		region_state:BHO={
-			create_building={
-				building="building_opium_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
-			}
-		}
-		region_state:BIC={
-			create_building={
-				building="building_cotton_plantation"
-				level=1
-				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
 	}
@@ -514,8 +438,6 @@
 				activate_production_methods={ "pm_line_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:BIC={
-		}
 	}
 	s:STATE_NAGPUR={
 		region_state:BUN={
@@ -534,7 +456,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:NAG={
+		region_state:MRT={
 			create_building={
 				building="building_textile_mills"
 				level=4
@@ -762,7 +684,7 @@
 		}
 	}
 	s:STATE_CEYLON={
-		region_state:BIC={
+		region_state:FIC={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -840,11 +762,9 @@
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 		}
-		region_state:BIC={
-		}
 	}
 	s:STATE_CIRCARS={
-		region_state:BIC={
+		region_state:FIC={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -905,13 +825,13 @@
 			}
 			create_building={
 				building="building_gold_mine"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_gold_mine" }
 			}			
 			create_building={
 				building="building_coffee_plantation"
-				level=4
+				level=5
 				reserves=1
 				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -923,34 +843,14 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=20
+				level=25
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BIC={
-			create_building={
-				building="building_coffee_plantation"
-				level=1
-				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_gold_mine"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_gold_mine" }
-			}			
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
-		}
 	}
 	s:STATE_TRAVANCORE={
-		region_state:TRA={
+		region_state:FIC={
 			create_building={
 				building="building_tea_plantation"
 				level=3
@@ -964,7 +864,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BIC={
+		region_state:MYS={
 			create_building={
 				building="building_coffee_plantation"
 				level=2
@@ -980,21 +880,7 @@
 		}
 	}
 	s:STATE_MADRAS={
-		region_state:FRA={
-			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
-			}			
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-		}
-		region_state:BIC={
+		region_state:FIC={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -1039,7 +925,7 @@
 			}
 			create_building={
 				building="building_dye_plantation"
-				level=10
+				level=12
 				reserves=1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -1063,7 +949,7 @@
 			}
 			create_building={
 				building="building_port"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
@@ -1124,7 +1010,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:BIC={
+		region_state:MRT={
 			create_building={
 				building="building_government_administration"
 				level=8

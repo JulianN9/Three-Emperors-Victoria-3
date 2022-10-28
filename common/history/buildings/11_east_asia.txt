@@ -586,7 +586,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:POR={
+		region_state:BRZ={
 			create_building={
 				building="building_rice_farm"
 				level=1

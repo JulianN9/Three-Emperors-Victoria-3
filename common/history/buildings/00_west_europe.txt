@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_SVEALAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -76,7 +76,7 @@
 		}
 	}
 	s:STATE_GOTALAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -128,7 +128,7 @@
 		}
 	}
 	s:STATE_SCANIA={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -198,7 +198,7 @@
 		}
 	}
 	s:STATE_NORRLAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_logging_camp"
 				level=2
@@ -214,7 +214,7 @@
 		}
 	}
 	s:STATE_GOTLAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_port"
 				level=1
@@ -230,7 +230,7 @@
 		}
 	}
 	s:STATE_JUTLAND={
-		region_state:DEN={
+		region_state:SCA={
 			create_building={
 				building="building_rye_farm"
 				level=8
@@ -270,7 +270,7 @@
 		}
 	}
 	s:STATE_ZEALAND={
-		region_state:DEN={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -334,7 +334,7 @@
 		}
 	}
 	s:STATE_WESTERN_NORWAY={
-		region_state:NOR={
+		region_state:SCA={
 			create_building={
 				building="building_fishing_wharf"
 				level=4
@@ -380,7 +380,7 @@
 		}
 	}
 	s:STATE_NORTHERN_NORWAY={
-		region_state:NOR={
+		region_state:SCA={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -390,7 +390,7 @@
 		}
 	}
 	s:STATE_EASTERN_NORWAY={
-		region_state:NOR={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -448,7 +448,7 @@
 		}
 	}
 	s:STATE_ICELAND={
-		region_state:DEN={
+		region_state:SCA={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -464,7 +464,7 @@
 		}
 	}
 	s:STATE_GREENLAND={
-		region_state:DEN={
+		region_state:SCA={
 		}
 	}
 	s:STATE_SOUTHERN_FINLAND={
@@ -1228,7 +1228,7 @@
 		}
 	}
 	s:STATE_ULSTER={
-		region_state:GBR={
+		region_state:IRE={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -1256,7 +1256,7 @@
 		}
 	}
 	s:STATE_MUNSTER={
-		region_state:GBR={
+		region_state:IRE={
 			create_building={
 				building="building_rye_farm"
 				level=1
@@ -1284,7 +1284,7 @@
 		}
 	}
 	s:STATE_LEINSTER={
-		region_state:GBR={
+		region_state:IRE={
 			create_building={
 				building="building_university"
 				level=1
@@ -1330,7 +1330,7 @@
 		}
 	}
 	s:STATE_CONNAUGHT={
-		region_state:GBR={
+		region_state:IRE={
 			create_building={
 				building="building_rye_farm"
 				level=2
@@ -2320,27 +2320,13 @@
 		}
 	}
 	s:STATE_WALLONIA={
-		region_state:LUX={
-			create_building={
-				building="building_wheat_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_simple_farming" "pm_tools_disabled" "pm_no_secondary" }
-			}
+		region_state:FRA={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
-			create_building={
-				building="building_barracks"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_irregular_infantry" }
-			}
-		}
-		region_state:BEL={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -2385,7 +2371,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=7
+				level=8
 				reserves=1
 				activate_production_methods={ "pm_privately_owned" "pm_soil_enriching_farming" "pm_tools" "pm_vineyards" }
 			}
@@ -2403,14 +2389,14 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=5
+				level=8
 				reserves=1
 				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
 			}
 		}
 	}
 	s:STATE_FLANDERS={
-		region_state:BEL={
+		region_state:FRA={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -2562,7 +2548,7 @@
 		}
 	}
 	s:STATE_BOHEMIA={
-		region_state:AUS={
+		region_state:CZH={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -2632,7 +2618,7 @@
 		}
 	}
 	s:STATE_MORAVIA={
-		region_state:AUS={
+		region_state:CZH={
 			create_building={
 				building="building_textile_mills"
 				level=3
@@ -2728,7 +2714,7 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL={
-		region_state:AUS={
+		region_state:RIT={
 			create_building={
 				building="building_wheat_farm"
 				level=1
