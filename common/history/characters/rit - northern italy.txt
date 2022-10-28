@@ -1,0 +1,32 @@
+CHARACTERS = {
+    c:RIT = {
+        create_character = {
+            #Eugene de Beauharnais
+            first_name = "Eugene"
+			last_name = "d_Beauharnais"
+			ruler = yes
+			birth_date = 1781.9.3
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			culture = cu:french
+    		religion = rel:catholic
+			traits = {
+				tactful 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+        }
+
+        create_character = {
+			first_name = Auguste
+			last_name = d_Beauharnais
+			heir = yes
+			birth_date = 1810.12.9
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+			}
+		}
+    }
+}

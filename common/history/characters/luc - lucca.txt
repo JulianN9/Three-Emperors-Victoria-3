@@ -3,14 +3,16 @@
 		create_character = {
 			# Charles Louis, the future Charles II, Duke of Parma
 			#role = politician # Remove this line
-			first_name = "Carlo_Ludovico"
-			last_name = "di_Borbone_Parma"
+			first_name = Elisa
+			last_name = Bonaparte
+			female = yes
 			ruler = yes
-			age = 37
+			born = 1809.3.3
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
+			culture = cu:french
 			traits = {
-				reckless
+				imperious
 			}
 			on_created = {
 				set_variable = is_married

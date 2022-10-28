@@ -23,6 +23,14 @@ DIPLOMACY = {
 			country = c:FIC
 			type = dominion
 		}
+		create_diplomatic_pact = {
+			country = c:NET
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ILL
+			type = puppet
+		}
     }
 
     c:CLM = {

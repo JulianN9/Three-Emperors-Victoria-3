@@ -1,15 +1,21 @@
 ﻿CHARACTERS = {
 	c:SPA = {
 		create_character = {
-			first_name = "Isabel"
-			last_name = "de_Borbon"
+			#Jerome Bonaparte
+			first_name = Joseph
+			last_name = Bonaparte
 			ruler = yes
-			female = yes
-			birth_date = 1830.10.10
-			dna = dna_queen_isabella_02
-			interest_group = ig_intelligentsia
-			ideology = ideology_moderate
+			birth_date = 1768.1.7
+			interest_group = ig_armed_forces
+			ideology = ideology_royalist
+			culture=cu:french
+    		religion = rel:catholic
+			interest_group = ig_landowners
 			traits = {
+				reserved
+			}
+			on_created = {
+				set_variable = is_married
 			}
 		}
 		# no heir as of yet
