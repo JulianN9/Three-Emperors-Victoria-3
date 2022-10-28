@@ -458,7 +458,7 @@
 				size = 148000
 			}
 		}
-		region_state:POR = {
+		region_state:BRZ = {
 			create_pop = {
 				culture = yue
 				size = 336000
@@ -1054,7 +1054,7 @@
 		}
 	}
 	s:STATE_TENASSERIM = {
-		region_state:BIC = {
+		region_state:BUR = {
 			create_pop = {
 				culture = karen
 				size = 180800
@@ -1186,14 +1186,10 @@
 				size = 40000
 			}
 		}
-		region_state:BIC = {
+		region_state:BUR = {
 			create_pop = {
 				culture = burmese
 				size = 100888
-			}
-			create_pop = {
-				culture = british
-				size = 432
 			}
 			create_pop = {
 				culture = burmese
@@ -1208,6 +1204,12 @@
 				pop_type = slaves
 				culture = burmese
 				size = 19000
+			}
+		}
+		region_state:SCA = {
+			create_pop = {
+				culture = danish
+				size = 432
 			}
 		}
 	}

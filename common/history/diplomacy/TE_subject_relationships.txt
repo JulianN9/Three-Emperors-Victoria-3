@@ -14,6 +14,15 @@ DIPLOMACY = {
 			country = c:LOU
 			type = dominion
 		}
+
+        create_diplomatic_pact = {
+			country = c:ION
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:FIC
+			type = dominion
+		}
     }
 
     c:CLM = {
@@ -41,4 +50,23 @@ DIPLOMACY = {
             type = puppet
         }
     }
+
+	c:FIC = {
+		create_diplomatic_pact = {
+			country = c:ORI
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BAS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HYD
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MYS
+			type = puppet
+		}
+	}	
 }

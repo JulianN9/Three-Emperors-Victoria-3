@@ -372,7 +372,7 @@
 		}
 	}
 	s:STATE_ULSTER = {
-		region_state:GBR = {
+		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 1183122
@@ -398,7 +398,7 @@
 		}
 	}
 	s:STATE_MUNSTER = {
-		region_state:GBR = {
+		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 2214388
@@ -424,7 +424,7 @@
 		}
 	}
 	s:STATE_LEINSTER = {
-		region_state:GBR = {
+		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 1677581
@@ -459,7 +459,7 @@
 		}
 	}
 	s:STATE_CONNAUGHT = {
-		region_state:GBR = {
+		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 1319428
@@ -1075,7 +1075,7 @@
 			}
 		}
 	}
-	s:STATE_BRANSCABURG = {
+	s:STATE_BRANDENBURG = {
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
@@ -1162,7 +1162,7 @@
 			}
 		}		
 	}
-	s:STATE_BASCA = {
+	s:STATE_BADEN = {
 		region_state:BAD = {
 			create_pop = {
 				culture = south_german
