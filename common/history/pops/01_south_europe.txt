@@ -53,7 +53,13 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = south_italian
-				size = 451000
+				size = 180400
+			}
+		}
+		region_state:RIT = {
+			create_pop = {
+				culture = south_italian
+				size = 270600
 			}
 		}
 	}
@@ -114,22 +120,20 @@
 		}
 	}
 	s:STATE_EMILIA = {
-		region_state:PAR = {
-			create_pop = {
-				culture = north_italian
-				size = 472004
-			}
-		}
 		region_state:LUC = {
 			create_pop = {
 				culture = north_italian
 				size = 108408
 			}
 		}
-		region_state:MOD = {
+		region_state:RIT = {
 			create_pop = {
 				culture = north_italian
 				size = 648400
+			}
+			create_pop = {
+				culture = north_italian
+				size = 472004
 			}
 		}
 	}
@@ -147,7 +151,7 @@
 		}
 	}
 	s:STATE_ROMAGNA = {
-		region_state:PAP = {
+		region_state:RIT = {
 			create_pop = {
 				culture = north_italian
 				size = 803600
@@ -608,24 +612,39 @@
 		region_state:ILL = {
 			create_pop = {
 				culture = croat
-				size = 563592
+				size = 535412
 			}
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 20004
-			}
-			create_pop = {
-				culture = hungarian
-				size = 28000
+				size = 19004
 			}
 			create_pop = {
 				culture = south_german
-				size = 40396
+				size = 38376
 			}
 			create_pop = {
 				culture = serb
 				size = 176000
+			}
+		}
+		region_state:HUN = {
+			create_pop = {
+				culture = croat
+				size = 28180
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				size = 1000
+			}
+			create_pop = {
+				culture = south_german
+				size = 2020
+			}
+			create_pop = {
+				culture = hungarian
+				size = 28000
 			}
 		}
 	}

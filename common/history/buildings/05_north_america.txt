@@ -34,7 +34,7 @@
 		}
 	}
 	s:STATE_LOUISIANA={
-		region_state:USA={
+		region_state:LOU={
 			create_building={
 				building="building_port"
 				level=2

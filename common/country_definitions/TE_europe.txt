@@ -7,7 +7,6 @@ RIT = {
 	
 	capital = STATE_VENETIA
 	cultures = { north_italian }
-	is_named_from_capital = yes
 }
 
 ILL = {
@@ -19,7 +18,6 @@ ILL = {
 	
 	capital = STATE_ISTRIA
 	cultures = { north_italian }
-	is_named_from_capital = yes
 }
 
 NAP = {
@@ -31,4 +29,30 @@ NAP = {
 	
 	cultures = { south_italian }
 	capital = STATE_CAMPANIA
+}
+
+WUZ = {
+	color = { 65  37  69 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { south_german }
+	religion = protestant	
+	capital = STATE_WURTTEMBERG
+	is_named_from_capital = yes
+}
+
+NEU = {
+	color = { 65  37  69 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { swiss }
+	religion = protestant	
+	capital = STATE_WEST_SWITZERLAND
+	is_named_from_capital = yes
 }

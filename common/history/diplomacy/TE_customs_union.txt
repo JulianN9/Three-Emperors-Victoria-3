@@ -1,7 +1,7 @@
 ﻿DIPLOMACY = {
 	c:FRA = {	
 		create_diplomatic_pact = {
-			country = c:MOD
+			country = c:LUC
 			type = customs_union
 		}
 		create_diplomatic_pact = {
@@ -22,6 +22,93 @@
 		}
 		create_diplomatic_pact = {
 			country = c:SPA
+			type = customs_union
+		}
+	}
+
+	c:WES = {
+		create_diplomatic_pact = {
+			country = c:OLD
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:FRM
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:HES
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:HEK
+			type = customs_union
+		}				
+		create_diplomatic_pact = {
+			country = c:NAS
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:WLD	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:LIP
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:SCM	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:SAX
+			type = customs_union
+		}				
+		create_diplomatic_pact = {
+			country = c:MEI
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:WEI	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:COB
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:SCW	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:ANH	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:MEC	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:MST	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:LUB	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:BAD	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:WUR	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:WUZ	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:BAV	
 			type = customs_union
 		}
 	}
