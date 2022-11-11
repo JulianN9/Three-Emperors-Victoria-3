@@ -289,14 +289,7 @@ GLOBAL = {
 
 	c:UCA = {
 		add_radicals = {
-			value = 1.2
-		}
-	}
-
-	c:BOL = {
-		trigger_event = {
-			id = south_america.2
-			days = 7
+			value = 0.6
 		}
 	}
 }

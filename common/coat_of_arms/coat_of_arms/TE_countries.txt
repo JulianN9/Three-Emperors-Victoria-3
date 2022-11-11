@@ -1,0 +1,119 @@
+@semy = 0.25
+@third = @[1/3]
+@fifth = @[1/5]
+@sixth = @[1/6]
+
+@canton_scale_cross_x = @[ ( 333 / 768 ) + 0.001 ]
+@canton_scale_cross_y = @[ ( 205 / 512 ) + 0.001 ]
+
+@canton_scale_sweden_x = @[ ( 255 / 768 ) + 0.001 ]
+@canton_scale_sweden_y = @[ ( 204 / 512 ) + 0.001 ]
+
+@uru_canton_height = 0.556
+@NZL_coa_offset = @[3/16] 
+@sm_fra = 0.16
+
+
+WUZ = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "blue"
+		color2 = "yellow"
+	}
+}
+
+NEU = {
+	pattern = "pattern_solid.tga"
+	color1 = "orange"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "black"
+		color2 = "white"
+	}
+}
+
+ILL = {
+	# Imperial std of Napoleon
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_crown_imperial_eagles.dds"
+		instance = { scale = { 0.25 0.25 } position = { 0.5 0.22 } }
+	}			
+	colored_emblem = {
+		texture = "ce_eagle_napoleonian.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "white"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.58 } }
+	}
+}
+
+MRT = {
+	pattern = "pattern_solid.tga"
+	color1 = "orange"
+
+	colored_emblem = {
+		texture = "ce_per_saltire_counterchanged.dds"
+		color1 = "orange"
+		color2 = "white"
+	}
+}
+
+FIC = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_tricolor_thick.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+	textured_emblem = {
+		texture = "te_crown_imperial_eagles.dds"
+		instance = { scale = { 0.25 0.25 } position = { 0.5 0.22 } }
+	}	
+	colored_emblem = {
+		texture = "ce_eagle_napoleonian.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "white"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.58 } }
+	}
+}
+
+RIT = {
+	pattern = "pattern_rhombus.dds"
+	color1 = "red"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "green"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+	}
+	textured_emblem = {
+		texture = "te_italy_french_eagle.dds"	
+	}
+}
+
+NAP = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_border_checkered.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
+	}
+	textured_emblem = {
+		texture = "te_naples_french_eagle.dds"
+	}
+}

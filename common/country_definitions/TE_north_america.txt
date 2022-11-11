@@ -1,0 +1,11 @@
+MTC = {
+	color = { 65  37  69 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { metis }
+	religion = catholic	
+	capital = s:STATE_SASKATCHEWAN
+}

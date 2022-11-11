@@ -60,7 +60,7 @@
 				size = 4000
 			}
 		}
-		region_state:BIC = {
+		region_state:DEI = {
 			create_pop = {
 				culture = malay
 				size = 60000
@@ -78,7 +78,7 @@
 				size = 600
 			}
 		}
-		region_state:GBR = {
+		region_state:SCA = {
 			create_pop = {
 				culture = malay
 				size = 40000

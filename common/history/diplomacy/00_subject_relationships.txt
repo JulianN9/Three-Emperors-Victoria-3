@@ -30,56 +30,6 @@
 			country = c:LIB
 			type = protectorate
 		}
-		create_diplomatic_pact = {
-			country = c:SEQ
-			type = puppet
-		}
-	}
-	c:GBR = {
-		create_diplomatic_pact = {
-			country = c:BIC
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:SIL
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:SAF
-			type = puppet
-		}
-
-		### AUSTRALIA ###
-		# Colony of New South Wales
-		create_diplomatic_pact = {
-			country = c:NSW
-			type = puppet
-		}
-		# Colony of Western Australia
-		create_diplomatic_pact = {
-			country = c:WAS
-			type = puppet
-		}
-		# Colony of South Australia, established in February 1836
-		create_diplomatic_pact = {
-			country = c:SAS
-			type = puppet
-		}
-		# Colony of Tasmania, historically called Van Dieman's Land until 1856
-		create_diplomatic_pact = {
-			country = c:TAS
-			type = puppet
-		}
-		# United Tribes of New Zealand
-		create_diplomatic_pact = {
-			country = c:UNT
-			type = protectorate
-		}
-		# Mosquito Kingdom
-		create_diplomatic_pact = {
-			country = c:MKT
-			type = protectorate
-		}
 	}
 	c:DAI = {
 		create_diplomatic_pact = {

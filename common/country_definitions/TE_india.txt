@@ -17,6 +17,6 @@ MRT = {
 	
 	tier = empire
 	
-	cultures = { kanauji marathi bihari tamil oriya gujarati }
+	cultures = { marathi }
 	capital = STATE_DELHI
 }
