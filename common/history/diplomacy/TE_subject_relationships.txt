@@ -33,12 +33,12 @@ DIPLOMACY = {
 		}
     }
 
-	c:LOU = {
-		create_diplomatic_pact = {
-			country = c:SEQ
-			type = puppet
-		}
-	}
+	# c:LOU = {
+	# 	create_diplomatic_pact = {
+	# 		country = c:SEQ
+	# 		type = puppet
+	# 	}
+	# }
 
     c:CLM = {
         # Gran Columbia
@@ -140,10 +140,20 @@ DIPLOMACY = {
 			country = c:UNT
 			type = protectorate
 		}
+	}
+
+	c:SAX = {
+		create_diplomatic_pact = {
+			country = c:POL
+			type = personal_union
+		}	
+	}
+
+	c:UCA = {
 		# Mosquito Kingdom
 		create_diplomatic_pact = {
 			country = c:MKT
-			type = protectorate
+			type = puppet
 		}
 	}
 }

@@ -1444,7 +1444,7 @@
 		}
 	}
 	s:STATE_CAPE_VERDE={
-		region_state:SPA={
+		region_state:BRZ={
 			create_building={
 				building="building_coffee_plantation"
 				level=1

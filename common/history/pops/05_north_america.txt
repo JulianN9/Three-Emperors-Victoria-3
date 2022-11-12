@@ -360,7 +360,7 @@
 		}
 	}
 	s:STATE_OKLAHOMA = {
-		region_state:SEQ = {
+		region_state:LOU = {
 			create_pop = {
 				culture = siouan
 				size = 2000

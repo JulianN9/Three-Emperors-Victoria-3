@@ -830,7 +830,7 @@
 		}
 	}
 	s:STATE_BOHEMIA = {
-		region_state:CZH = {
+		region_state:BOH = {
 			create_pop = {
 				culture = south_german
 				size = 1499608
@@ -847,7 +847,7 @@
 		}
 	}
 	s:STATE_MORAVIA = {
-		region_state:CZH = {
+		region_state:BOH = {
 			create_pop = {
 				culture = south_german
 				size = 480408

@@ -18,7 +18,7 @@ ILL = {
 
 	tier = kingdom
 	
-	capital = STATE_ISTRIA
+	capital = STATE_SLOVENIA
 	cultures = { slovene croat north_italian }
 }
 

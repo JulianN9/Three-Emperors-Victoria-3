@@ -307,7 +307,7 @@
 		}
 	}
 	s:STATE_OKLAHOMA={
-		region_state:SEQ={
+		region_state:LOU={
 			create_building={
 				building="building_cotton_plantation"
 				level=1

@@ -246,12 +246,12 @@
 		region_state:MRT = {
 			create_pop = {
 				culture = gujarati
-				size = 6634412
+				size = 6229412
 			}
 			create_pop = {
 				culture = gujarati
 				religion = animist
-				size = 81200
+				size = 76700
 			}
 			create_pop = {
 				culture = british
@@ -259,12 +259,12 @@
 			}
 			create_pop = {
 				culture = sindi
-				size = 318300
+				size = 295800
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = gujarati
-				size = 110000
+				size = 96500
 			}
 			create_pop = {
 				pop_type = slaves
@@ -275,7 +275,32 @@
 			create_pop = {
 				pop_type = slaves
 				culture = sindi
-				size = 30088
+				size = 25588
+			}
+		}
+		region_state:SCA = {
+			create_pop = {
+				culture = gujarati
+				size = 405000
+			}
+			create_pop = {
+				culture = sindi
+				size = 22500
+			}
+			create_pop = {
+				culture = gujarati
+				religion = animist
+				size = 4500
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gujarati
+				size = 13500
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sindi
+				size = 4500
 			}
 		}
 		region_state:KUT = {

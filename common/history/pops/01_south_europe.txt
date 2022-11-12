@@ -367,7 +367,7 @@
 		}
 	}
 	s:STATE_CAPE_VERDE = {
-		region_state:SPA = {
+		region_state:BRZ = {
 			create_pop = {
 				culture = portuguese
 				size = 103532

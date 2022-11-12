@@ -2606,7 +2606,7 @@
 		}
 	}
 	s:STATE_BOHEMIA={
-		region_state:CZH={
+		region_state:BOH={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -2676,7 +2676,7 @@
 		}
 	}
 	s:STATE_MORAVIA={
-		region_state:CZH={
+		region_state:BOH={
 			create_building={
 				building="building_textile_mills"
 				level=3
@@ -2865,7 +2865,7 @@
 				building="building_barracks"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_irregular_infantry" }
+				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}			
 			create_building={
 				building="building_furniture_manufacturies"
@@ -3023,7 +3023,13 @@
 				building="building_barracks"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_skirmish_infantry" }
+				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+			create_building={
+				building="building_arms_industry"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" "pm_cannons" }
 			}
 		}
 		region_state:LIP = {
@@ -3097,7 +3103,7 @@
 				building="building_barracks"
 				level=10
 				reserves=1
-				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
 		region_state:ANH={
@@ -3211,7 +3217,7 @@
 				building="building_barracks"
 				level=25
 				reserves=1
-				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
 		region_state:FRA={
@@ -3275,7 +3281,7 @@
 			}
 			create_building={
 				building="building_arms_industry"
-				level=5
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" "pm_cannons" }
 			}			
@@ -3571,7 +3577,7 @@
 				building="building_barracks"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
+				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
 		region_state:PRU={

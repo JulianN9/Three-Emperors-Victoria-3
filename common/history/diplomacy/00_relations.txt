@@ -249,7 +249,7 @@
 	}
 	c:USA = { 
 		set_relations = { country = c:LIB value = 30 }
-		set_relations = { country = c:SEQ value = -20 }
+		# set_relations = { country = c:SEQ value = -20 }
 		set_relations = { country = c:UCA value = 10 }
 		set_relations = { country = c:BRZ value = 10 }
 		set_relations = { country = c:VNZ value = 10 }

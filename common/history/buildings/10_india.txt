@@ -232,18 +232,6 @@
 				activate_production_methods={ "pm_simple_organization" }
 			}			
 			create_building={
-				building="building_furniture_manufacturies"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_handcrafted_furniture" "pm_merchant_guilds_building_furniture_manufacturies" "pm_automation_disabled" "pm_luxury_furniture" }
-			}
-			create_building={
-				building="building_textile_mills"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
-			}
-			create_building={
 				building="building_fishing_wharf"
 				level=3
 				reserves=1
@@ -266,6 +254,26 @@
 				level=20
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
+			}
+		}
+		region_state:SCA = {
+			create_building={
+				building="building_furniture_manufacturies"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_handcrafted_furniture" "pm_merchant_guilds_building_furniture_manufacturies" "pm_automation_disabled" "pm_luxury_furniture" }
+			}
+			create_building={
+				building="building_textile_mills"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 		region_state:KUT={

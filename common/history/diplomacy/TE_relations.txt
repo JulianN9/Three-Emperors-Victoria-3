@@ -13,6 +13,7 @@
 		set_relations = { country = c:RIT value = 30 }
 		set_relations = { country = c:NAP value = 30 }
 		set_relations = { country = c:LUC value = 30 }
+		# set_relations = { country = c:SEQ value = -20 }
 	}
 
 	c:WES = {
@@ -38,4 +39,13 @@
 		set_relations = { country = c:WUZ value = 30 }
 		set_relations = { country = c:BAV value = 30 }
 	}
+
+	c:SAX = {
+		set_relations = { country = c:POL value = 30 }
+		set_relations = { country = c:BOH value = 30 }
+	}
+
+	# c:LOU = {
+	# 	set_relations = { country = c:SEQ value = -20 }
+	# }
 }
