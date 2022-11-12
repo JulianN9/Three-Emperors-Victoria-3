@@ -3,7 +3,7 @@ CHARACTERS = {
         create_character = {
             #Eugene de Beauharnais
             first_name = "Eugene"
-			last_name = "d_Beauharnais"
+			last_name = "de Beauharnais"
 			ruler = yes
 			birth_date = 1781.9.3
 			interest_group = ig_armed_forces

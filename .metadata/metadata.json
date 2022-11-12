@@ -1,10 +1,13 @@
 {
   "name" : "Three Emperors",
-  "id" : "",
-  "version" : "",
-  "supported_game_version" : "",
+  "id" : "Three Emperors",
+  "version" : "0.1.0",
+  "supported_game_version" : "1.0.*",
   "short_description" : "",
-  "tags" : [],
+  "tags" : [
+    "Alternative History",
+    "Total Conversion"
+  ],
   "relationships" : [],
   "game_custom_data" : {
     "multiplayer_synchronized" : true
