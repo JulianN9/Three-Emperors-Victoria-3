@@ -365,6 +365,7 @@ STATES = {
 		create_state = {
 			country = c:FRA
 			owned_provinces = { xE0C020 xD616D2 x08B4D6 x11E041 x945748 x906040 x936FF3 x2914C3 x0C64AC xC2FFD9 x890622 }
+			state_type = unincorporated
 		}
 		
 		add_homeland = spanish
@@ -448,6 +449,7 @@ STATES = {
 		create_state = {
 			country = c:FRA
 			owned_provinces = { x01C0A0 }
+			state_type = unincorporated
 		}
 		
 		add_homeland = dutch
@@ -464,6 +466,7 @@ STATES = {
 		create_state = {
 			country = c:FRA
 			owned_provinces = { x93FB2E x018061 x0141A0 x8041A0 x800060 x808061 }
+			state_type = unincorporated
 		}
 
 		add_homeland = flemish
@@ -484,6 +487,7 @@ STATES = {
 		create_state = {
 			country = c:FRA
 			owned_provinces = { x4C4894 xC0C0A0 x0000DF }
+			state_type = unincorporated
 		}
 
 		add_homeland = dutch
@@ -520,6 +524,7 @@ STATES = {
 		create_state = {
 			country = c:FRA
 			owned_provinces = { xD080E0 xAA6958 xDA86EA xA9397D x90C060 x1140E0 xF00544 xACB500 x11C061 x904061 x54728A x5F6BAA }
+			state_type = unincorporated
 		}
 		
 		add_homeland = north_italian
@@ -800,6 +805,7 @@ STATES = {
 		create_state = {
 			country = c:FRA
 			owned_provinces = { x29CCD6 xD080A0 x904020 xC1B963 x5D7A68 x11C021 x707505 }
+			state_type = unincorporated
 		}	
 		
 		add_homeland = north_german
@@ -812,6 +818,7 @@ STATES = {
 		create_state = {
 			country = c:FRA
 			owned_provinces = { x834B66 x9F4072 x518021 x8001E0 x486F6A  }
+			state_type = unincorporated
 		}	
 
 		add_homeland = north_german

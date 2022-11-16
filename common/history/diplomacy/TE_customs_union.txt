@@ -84,10 +84,6 @@
 			type = customs_union
 		}
 		create_diplomatic_pact = {
-			country = c:LUB	
-			type = customs_union
-		}
-		create_diplomatic_pact = {
 			country = c:BAD	
 			type = customs_union
 		}

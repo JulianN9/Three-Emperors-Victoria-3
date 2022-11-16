@@ -28,7 +28,7 @@ SCA = {
 	tier = empire
 	
 	cultures = { swedish norwegian danish icelandic }
-	capital = STATE_GOTALAND
+	capital = STATE_SVEALAND
 }
 
 RUS = {
@@ -69,7 +69,7 @@ WES = {
 	
 	country_type = recognized
 
-	tier = principality
+	tier = kingdom
 	
 	cultures = { north_german }
 	capital = STATE_WESTPHALIA
