@@ -344,13 +344,146 @@ TRADE_ROUTES = {
 		}
 	}
 
-	# Austria - TO DO
+	# Austria
 	c:AUS = {			
+		create_trade_route = {
+			goods = hardwood
+			level = 3
+			direction = import
+			target = c:SAX.market
+		}	
+		create_trade_route = {
+			goods = wood
+			level = 3
+			direction = import
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = glass
+			level = 2
+			direction = import
+			target = c:SAX.market
+		}	
 	}
 
-	# Hungary - TO DO
+	# Hungary
 	c:HUN = {
-		
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:TUR.market
+		}	
+		create_trade_route = {
+			goods = sugar
+			level = 3
+			direction = import
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = sugar
+			level = 2
+			direction = import
+			target = c:TUR.market
+		}	
+	}
+
+	# Switzerland
+	c:SWI = {
+		create_trade_route = {
+			goods = wine
+			level = 1
+			direction = import
+			target = c:FRA.market
+		}			
+	}
+
+	# Russia
+	c:RUS = {	
+		# create_trade_route = {
+		# 	goods = manowars
+		# 	level = 3
+		# 	direction = import
+		# 	target = c:DEN.market
+		# }	
+		create_trade_route = {
+			goods = dye
+			level = 3
+			direction = import
+			target = c:GBR.market
+		}		
+		create_trade_route = {
+			goods = tea
+			level = 5
+			direction = import
+			target = c:CHI.market
+		}		
+		create_trade_route = {
+			goods = porcelain
+			level = 6
+			direction = import
+			target = c:CHI.market
+		}		
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 4
+			direction = import
+			target = c:GBR.market
+		}	
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 6
+			direction = import
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = sugar
+			level = 7
+			direction = import
+			target = c:CHI.market
+		}		
+		create_trade_route = {
+			goods = sugar
+			level = 7
+			direction = import
+			target = c:NET.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 7
+			direction = import
+			target = c:GBR.market
+		}	
+		create_trade_route = {
+			goods = tools
+			level = 8
+			direction = import
+			target = c:CHI.market
+		}	
+		create_trade_route = {
+			goods = tools
+			level = 5
+			direction = import
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = liquor
+			level = 5
+			direction = export
+			target = c:SWE.market
+		}	
+		create_trade_route = {
+			goods = liquor
+			level = 7
+			direction = export
+			target = c:FRA.market
+		}				
 	}
 
 	# France - TO DO
