@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:ILL = {
+		create_character = {
+			first_name = "Auguste"
+			last_name = "Marmont"
+			ruler = yes
+			birth_date = 1774.7.20
+			culture=cu:french
+			ig_leader = yes
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				imperious
+			}
+		}
+
+		create_character = {
+			first_name = "Henri"
+			last_name = "Bertrand"
+			birth_date = 1773.3.28
+			culture=cu:french
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			traits = {
+				imperious
+			}
+		}
+
+		create_character = {
+			first_name = "Jernej"
+			last_name = "Kopita"
+			birth_date = 1780.8.21
+			culture=cu:slovene
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			ideology = ideology_reformer
+			traits = {
+				imperious
+			}
+		}
+	}
+}

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:SWE = {
+	c:SCA = {
 		create_character = {
 			# Charles XIV John of Sweden, born Jean Bernadotte, one of Napoleon's former marshals
 			first_name = "Karl_Johan"

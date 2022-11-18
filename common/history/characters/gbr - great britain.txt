@@ -1,5 +1,6 @@
 ﻿CHARACTERS = {
 	c:GBR = {
+		#Google London Corresponding Society
 		create_character = {
 			first_name = William
 			last_name = Lamb

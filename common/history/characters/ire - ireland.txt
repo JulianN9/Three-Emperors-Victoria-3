@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:IRE = {
+		create_character = {
+			first_name = Robert
+			last_name = Emmet
+			ruler = yes
+			birth_date = 1778.3.4
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			ideology = ideology_reformer
+			traits = {
+				ambitious
+			}
+		}
+	}
+}
