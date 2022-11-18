@@ -555,4 +555,339 @@ TRADE_ROUTES = {
 			target = c:PAP.market
 		}			
 	}
+
+	# Brazil
+	c:BRZ = {
+		create_trade_route = {
+			goods = wood
+			level = 9
+			direction = export
+			target = c:USA.market
+		}		
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 4
+			direction = import
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 2
+			direction = import
+			target = c:FRA.market
+		}		
+		create_trade_route = {
+			goods = sugar
+			level = 3
+			direction = export
+			target = c:USA.market
+		}		
+		create_trade_route = {
+			goods = liquor
+			level = 8
+			direction = import
+			target = c:GBR.market
+		}			
+		create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = import
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = furniture
+			level = 2
+			direction = import
+			target = c:USA.market
+		}			
+	}
+
+	# Argentina
+	c:ARG = {
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:CHL.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = manowars
+			level = 1
+			direction = import
+			target = c:GBR.market
+		}			
+		create_trade_route = {
+			goods = grain
+			level = 5
+			direction = import
+			target = c:GBR.market
+		}			
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			target = c:USA.market
+		}			
+	}
+
+	# Bolivia
+	c:BOL = {
+		create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = import
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			target = c:USA.market
+		}	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 1
+			direction = import
+			target = c:PEU.market
+		}		
+	}
+
+	# Peru
+	c:PEU = {
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:CHL.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			target = c:USA.market
+		}	
+	}	
+
+	# Colombia
+	c:CLM = {
+		create_trade_route = {
+			goods = sugar
+			level = 3
+			direction = export
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = coffee
+			level = 3
+			direction = export
+			target = c:USA.market
+		}		
+		create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = import
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:USA.market
+		}	
+	}
+	
+	# Chile
+	c:CHL = {
+		create_trade_route = {
+			goods = liquor
+			level = 2
+			direction = import
+			target = c:GBR.market
+		}	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:USA.market
+		}		
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 4
+			direction = import
+			target = c:GBR.market
+		}	
+		create_trade_route = {
+			goods = clothes
+			level = 1
+			direction = import
+			target = c:GBR.market
+		}		
+	}
+
+	# Ecuador
+	c:ECU = {
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			target = c:USA.market
+		}	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:USA.market
+		}		
+	}
+	
+	# Venezuela
+	c:VNZ = {
+		create_trade_route = {
+			goods = sugar
+			level = 3
+			direction = export
+			target = c:USA.market
+		}	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = liquor
+			level = 1
+			direction = import
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:GBR.market
+		}
+
+	}
+
+	# Haiti
+	c:HAI = {	
+		create_trade_route = {
+			goods = tobacco
+			level = 2
+			direction = export
+			target = c:USA.market
+		}			
+		create_trade_route = {
+			goods = tobacco
+			level = 1
+			direction = export
+			target = c:UCA.market
+		}			
+		create_trade_route = {
+			goods = fabric
+			level = 4
+			direction = import
+			target = c:USA.market
+		}			
+	}	
+
+	# Mexico
+	c:MEX = {
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:FRA.market
+		}			
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:FRA.market
+		}		
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 3
+			direction = import
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = sugar
+			level = 4
+			direction = export
+			target = c:FRA.market
+		}		
+	}	
 }

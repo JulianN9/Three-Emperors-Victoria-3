@@ -147,6 +147,10 @@ DIPLOMACY = {
 			country = c:POL
 			type = personal_union
 		}	
+		create_diplomatic_pact = {
+			country = c:BOH
+			type = personal_union
+		}	
 	}
 
 	c:UCA = {
