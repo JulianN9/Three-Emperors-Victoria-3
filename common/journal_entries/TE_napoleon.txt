@@ -1,0 +1,63 @@
+﻿je_napoleonslegacy = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	complete = {
+		custom_tooltip = {
+			text = napoleon_died
+			ruler = {
+				NOT = { has_variable = is_napoleon }
+			}
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = age_of_napoleon_ends
+		if = {
+			limit = {
+				exists = c:FRA
+				c:FRA = ROOT
+			}
+			trigger_event = { id = napoleon.1 }
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					exists = c:FRA
+					c:FRA = ROOT
+					ruler = { has_variable = is_napoleon }
+				}
+				random_list = {
+					11 = { }
+					1 = {
+						ruler = { kill_character = yes }
+					}
+				}
+			}
+		}
+	}
+
+	invalid = {
+		OR = {
+			NOT = {
+				exists = c:FRA
+			}
+			c:FRA = {
+				custom_tooltip = {
+					text = "DEBUG_NO_CHARACTER_IN_FRA_IS_NAPOLEON_II"
+					NOT = {
+						any_scope_character = {
+							has_variable = is_youngnapoleon
+						}
+					}
+				}
+			}
+		}
+	}
+
+	weight = 10
+
+	should_be_pinned_by_default = yes
+}

@@ -5,26 +5,37 @@
 			last_name = Bonaparte
 			ruler = yes
 			birth_date = 1769.08.15
-			dna = dna_emperor_napoleon_03
+			dna = dna_emperor_napoleon
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			traits = {
 				tactful
+				traditionalist_commander
 			}
 			on_created = {
 				set_variable = is_married
+				set_variable = {
+					name = is_napoleon
+				}				
 			}
 		}
 
 		create_character = {
-			first_name = Charles-Louis
+			# Young Napoleon II
+			first_name = Napoleon
 			last_name = Bonaparte
 			heir = yes
-			birth_date = 1808.4.20
-			interest_group = ig_armed_forces
-			ideology = ideology_jingoist_leader
+			birth_date = 1811.3.20
+			interest_group = ig_landowners
+			ideology = ideology_moderate
 			traits = {
-				imperious
+				romantic
+				basic_political_operator
+			}
+			on_created = {
+				set_variable = {
+					name = is_youngnapoleon
+				}				
 			}
 		}
 

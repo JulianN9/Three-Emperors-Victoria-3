@@ -1,0 +1,341 @@
+﻿namespace = napoleon
+
+# For FRA
+napoleon.1 = {
+	type = country_event
+
+	title = napoleon.1.t
+	desc = napoleon.1.d
+	flavor = napoleon.1.f
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = ruler
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+		# triggered by je_napoleon
+	}
+
+	immediate = {
+		ruler = {
+			save_scope_as = young_napoleon
+		}
+		if = {
+			limit = {
+				c:FRA = {
+					has_diplomatic_pact = {
+						who = c:SPA
+		     			type = customs_union
+					}
+				}
+			}
+			c:FRA = {
+				remove_diplomatic_pact = {
+					country = c:SPA
+					type = customs_union
+				}
+			}
+		}
+		if = {
+			limit = {
+				c:FRA = {
+					has_diplomatic_pact = {
+						who = c:NAP
+		     			type = customs_union
+					}
+				}
+			}
+			c:FRA = {
+				remove_diplomatic_pact = {
+					country = c:NAP
+					type = customs_union
+				}
+			}
+		}
+		if = {
+			limit = {
+				c:FRA = {
+					has_diplomatic_pact = {
+						who = c:RIT
+		     			type = customs_union
+					}
+				}
+			}
+			c:FRA = {
+				remove_diplomatic_pact = {
+					country = c:RIT
+					type = customs_union
+				}
+			}
+		}
+		if = {
+			limit = {
+				c:FRA = {
+					has_diplomatic_pact = {
+						who = c:LUC
+		     			type = customs_union
+					}
+				}
+			}
+			c:FRA = {
+				remove_diplomatic_pact = {
+					country = c:LUC
+					type = customs_union
+				}
+			}
+		}
+	}
+	option = {
+		name = napoleon.1.a # Try to keep Spain
+		# ruler = {
+		# 	add_modifier = {
+		# 		name = young_napoleon_mod
+		# 	}
+		# }
+		custom_tooltip = napoleon.1.tt
+		hidden_effect = {
+			c:RIT = {
+				trigger_event = { id = napoleon.2 }
+			}
+			c:NAP = {
+				trigger_event = { id = napoleon.2 }
+			}
+			c:LUC = {
+				trigger_event = { id = napoleon.2 }
+			}
+			c:SPA = {
+				trigger_event = { id = napoleon.3 }
+			}
+			c:WES = {
+				trigger_event = { id = napoleon.2 }
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					has_interest_marker_in_region = region_italy
+					has_interest_marker_in_region = region_iberia
+					has_interest_marker_in_region = region_france
+					has_interest_marker_in_region = region_occitania
+				}
+			}
+			post_notification = napoleon_notification
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+	option = {
+		name = napoleon.1.b # God save the Queen!
+		# ruler = {
+		# 	add_modifier = {
+		# 		name = young_napoleon_mod
+		# 	}
+		# }
+		custom_tooltip = napoleon.1.tt
+		hidden_effect = {
+			c:RIT = {
+				trigger_event = { id = napoleon.3 }
+			}
+			c:NAP = {
+				trigger_event = { id = napoleon.3 }
+			}
+			c:LUC = {
+				trigger_event = { id = napoleon.3 }
+			}
+			c:SPA = {
+				trigger_event = { id = napoleon.2 }
+			}
+			c:WES = {
+				trigger_event = { id = napoleon.2 }
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					has_interest_marker_in_region = region_italy
+					has_interest_marker_in_region = region_iberia
+					has_interest_marker_in_region = region_france
+					has_interest_marker_in_region = region_occitania
+				}
+			}
+			post_notification = napoleon_notification
+		}
+		ai_chance = {
+			base = 2
+		}
+	}
+	option = {
+		name = napoleon.1.c # God save the Queen!
+		# ruler = {
+		# 	add_modifier = {
+		# 		name = young_napoleon_mod
+		# 	}
+		# }
+		custom_tooltip = napoleon.1.tt
+		hidden_effect = {
+			c:RIT = {
+				trigger_event = { id = napoleon.3 }
+			}
+			c:NAP = {
+				trigger_event = { id = napoleon.3 }
+			}
+			c:LUC = {
+				trigger_event = { id = napoleon.3 }
+			}
+			c:SPA = {
+				trigger_event = { id = napoleon.3 }
+			}
+			c:WES = {
+				trigger_event = { id = napoleon.4 }
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					has_interest_marker_in_region = region_italy
+					has_interest_marker_in_region = region_iberia
+					has_interest_marker_in_region = region_france
+					has_interest_marker_in_region = region_occitania
+				}
+			}
+			post_notification = napoleon_notification
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+# For Leaving Parties
+napoleon.2 = {
+	type = country_event
+
+	title = napoleon.2.t
+	desc = napoleon.2.d
+	flavor = napoleon.2.f
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = ruler
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+		# triggered by je_napoleon
+	}
+
+	immediate = {
+	}
+	option = {
+		name = napoleon.2.a
+	}
+}
+
+# Attempt to Remain in CS
+napoleon.3 = {
+	type = country_event
+
+	title = napoleon.3.t
+	desc = napoleon.3.d
+	flavor = napoleon.3.f
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = ruler
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+		# triggered by je_napoleon
+	}
+
+	immediate = {
+		ruler = {
+			save_scope_as = ruler_scope
+		}
+	}
+	option = {
+		name = napoleon.3.a
+		c:FRA = {
+			create_diplomatic_pact = {
+				country = ROOT
+				type = customs_union
+			}
+		}
+		ai_chance = {
+			base = 9
+		}
+	}
+	option = {
+		name = napoleon.3.b
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+napoleon.4 = {
+	type = country_event
+
+	title = napoleon.4.t
+	desc = napoleon.4.d
+	flavor = napoleon.4.f
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = ruler
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+		# triggered by je_napoleon
+	}
+
+	immediate = {
+	}
+	option = {
+		name = napoleon.4.a
+		c:FRA = {
+			create_diplomatic_pact = {
+				country = ROOT
+				type = defensive_pact
+			}
+			create_diplomatic_pact = {
+				country = ROOT
+				type = trade_agreement
+			}
+		}
+		ai_chance = {
+			base = 9
+		}
+	}
+	option = {
+		name = napoleon.4.b
+		ai_chance = {
+			base = 1
+		}
+	}
+}
