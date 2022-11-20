@@ -51,8 +51,6 @@
 				culture = miskito # Miskito pop. across the 'borders'
 				size = 4000
 			}
-		}
-		region_state:MKT = {
 			create_pop = {
 				culture = miskito # Tawira Miskito
 				size = 30000

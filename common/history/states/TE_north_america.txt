@@ -1040,11 +1040,7 @@ STATES = {
 	s:STATE_NICARAGUA = {
 		create_state = {
 			country = c:UCA
-			owned_provinces = { x95FC5A x9070C0 x9CDB2B xD50755 x10EFC0 x832DFB x074DD8 x68E7F3 xC9A998 x1070C0 xFD8FA1 x2245C0 x9EB0DC x4A4413 x107080 x02733F x745F00 x865E67 xBA0A50 }
-		}
-		create_state = {
-			country = c:MKT
-			owned_provinces = { x17F33B x6C22F2 x59D231 xAD9EE8 }
+			owned_provinces = { x95FC5A x9070C0 x9CDB2B xD50755 x10EFC0 x832DFB x074DD8 x68E7F3 xC9A998 x1070C0 xFD8FA1 x2245C0 x9EB0DC x4A4413 x107080 x02733F x745F00 x865E67 xBA0A50 x17F33B x6C22F2 x59D231 xAD9EE8 }
 		}
 		add_homeland = central_american
 		add_homeland = miskito
@@ -1112,6 +1108,7 @@ STATES = {
 		create_state = {
 			country = c:HAI
 			owned_provinces = { x72C072 x4EBC79 x7A6FA3 x686279 }
+			state_type = unincorporated
 		}
 		
 		add_homeland = afro_antillean
@@ -1129,6 +1126,7 @@ STATES = {
 		create_state = {
 			country = c:HAI
 			owned_provinces = { x335389 x89337A x445B6C x5299CA x70F001 xF0F001 x707080 xD496B1 x446C63 x606060 x89334D xECC061 x30F080 x33895B x9C52CA }
+			state_type = unincorporated
 		}
 		
 		add_homeland = afro_antillean

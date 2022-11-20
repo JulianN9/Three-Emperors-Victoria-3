@@ -153,10 +153,113 @@ DIPLOMACY = {
 		}	
 	}
 
-	c:UCA = {
-		# Mosquito Kingdom
+	c:RUS = {
 		create_diplomatic_pact = {
-			country = c:MKT
+			country = c:FIN
+			type = personal_union
+		}
+	}
+	c:PRU = {
+		create_diplomatic_pact = {
+			country = c:HOH
+			type = puppet
+		}
+	}
+	c:CHI = {
+		create_diplomatic_pact = {
+			country = c:TIB
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:KOR
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:LAN
+			type = tributary
+		}			
+	}
+	c:USA = {
+		create_diplomatic_pact = {
+			country = c:LIB
+			type = protectorate
+		}
+	}
+	c:DAI = {
+		create_diplomatic_pact = {
+			country = c:CAM
+			type = tributary
+		}
+	}
+	c:SIA = {
+		create_diplomatic_pact = {
+			country = c:CHP
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:CMI
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:LUA
+			type = tributary
+		}		
+	}
+	c:EGY = {
+		create_diplomatic_pact = {
+			country = c:HDJ
+			type = tributary
+		}
+	}
+	c:TUR = {
+		create_diplomatic_pact = {
+			country = c:MOL
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:WAL
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SER
+			type = protectorate
+		}		
+		create_diplomatic_pact = {
+			country = c:TRI
+			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:TUN
+			type = protectorate
+		}
+	}
+	c:DEI = {
+		create_diplomatic_pact = {
+			country = c:YOG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SRK
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:JMB
+			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:SMB
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PON
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BNJ
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:TID
 			type = puppet
 		}
 	}

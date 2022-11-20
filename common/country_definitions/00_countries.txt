@@ -2074,9 +2074,9 @@ HAI = {
 	
 	country_type = colonial
 	
-	tier = principality
+	tier = empire
 	
-	cultures = { afro_antillean caribeno afro_caribeno }
+	cultures = { afro_antillean afro_caribeno }
 	capital = STATE_HAITI
 }
 

@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:NET = {
 		create_character = {
-			#Louis Bonaparte
+			# Louis Bonaparte
 			first_name = Louis
 			last_name = Bonaparte
 			ruler = yes
@@ -18,6 +18,19 @@
 				set_variable = is_married
 			}
 		}	
+
+		create_character = {
+			# Napoleon III
+			first_name = Charles
+			last_name = Bonaparte
+			heir = yes
+			birth_date = 1808.4.20
+			interest_group = ig_armed_forces
+			ideology = ideology_jingoist_leader
+			traits = {
+				imperious
+			}
+		}
 
 		create_character = { # General
 			is_general = yes

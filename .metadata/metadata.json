@@ -1,15 +1,27 @@
 {
-  "name" : "Three Emperors",
-  "id" : "Three Emperors",
-  "version" : "0.1.0",
-  "supported_game_version" : "1.0.*",
-  "short_description" : "",
-  "tags" : [
-    "Alternative History",
-    "Total Conversion"
-  ],
-  "relationships" : [],
-  "game_custom_data" : {
-    "multiplayer_synchronized" : true
-  }
+	"name" : "Three Emperors",
+	"id" : "Three Emperors",
+	"version" : "0.1.2",
+	"supported_game_version" : "1.0.*",
+	"short_description" : "Three Emperors Total Conversion",
+	"tags" : [
+		"Alternative History",
+		"Total Conversion"
+	],
+	"relationships" : [],
+	"game_custom_data" : {
+		"multiplayer_synchronized" : true,
+		"replace_paths" : [
+			"common/history/ai",
+			"common/history/characters",
+			"common/history/countries",
+			"common/history/diplomacy",
+			"common/history/diplomatic_plays",
+			"common/history/interests",
+			"common/history/population",
+			"common/history/production_methods",
+			"common/history/states",
+			"common/history/trade_routes"
+		]
+	}
 }

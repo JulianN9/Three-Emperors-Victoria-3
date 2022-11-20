@@ -58,9 +58,6 @@
 			set_ig_suppression = yes
 		}
 
-		add_modifier = {
-			name = modifier_haitian_independence_payments
-			
-		}
+		add_journal_entry = { type = je_napoleonslegacy }
 	}
 }

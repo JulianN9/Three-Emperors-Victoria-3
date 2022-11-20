@@ -1,18 +1,18 @@
 ﻿DIPLOMACY = {
-	c:GBR = {
+	c:FRA = {
 		create_diplomatic_pact = {
-			country = c:FRA
+			country = c:GBR
 			type = rivalry
 		}
 	}		
 
 	c:PRU = {
 		create_diplomatic_pact = {
-			country = c:AUS
+			country = c:WES
 			type = rivalry
 		}
 	}
-	c:AUS = {
+	c:WES = {
 		create_diplomatic_pact = {
 			country = c:PRU
 			type = rivalry
