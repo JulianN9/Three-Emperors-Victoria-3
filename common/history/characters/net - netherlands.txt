@@ -4,6 +4,7 @@
 			# Louis Bonaparte
 			first_name = Louis
 			last_name = Bonaparte
+			dna = dna_louis_bonaparte
 			ruler = yes
 			birth_date = 1778.9.2
 			interest_group = ig_armed_forces
@@ -23,6 +24,7 @@
 			# Napoleon III
 			first_name = Charles
 			last_name = Bonaparte
+			dna = dna_emperor_napoleon_03
 			heir = yes
 			birth_date = 1808.4.20
 			interest_group = ig_armed_forces

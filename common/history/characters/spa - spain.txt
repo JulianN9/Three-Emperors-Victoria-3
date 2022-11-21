@@ -4,6 +4,7 @@
 			#Jerome Bonaparte
 			first_name = Joseph
 			last_name = Bonaparte
+			dna = dna_joseph_bonaparte
 			ruler = yes
 			birth_date = 1768.1.7
 			interest_group = ig_armed_forces

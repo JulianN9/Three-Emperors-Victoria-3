@@ -26,6 +26,7 @@
 			last_name = Bonaparte
 			heir = yes
 			birth_date = 1811.3.20
+			dna = dna_emperor_napoleon_02
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {

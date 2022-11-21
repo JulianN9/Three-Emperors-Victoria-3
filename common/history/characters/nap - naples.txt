@@ -1,9 +1,10 @@
 CHARACTERS = {
     c:NAP = {
         create_character = {
-            #Jerome Bonaparte
+            #Joachim Murat
             first_name = Joachim
 			last_name = Murat
+			dna = dna_joachim_murat
 			ruler = yes
 			birth_date = 1767.3.25
 			interest_group = ig_armed_forces

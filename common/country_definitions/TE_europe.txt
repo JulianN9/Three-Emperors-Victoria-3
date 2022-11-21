@@ -6,7 +6,7 @@ RIT = {
 
 	tier = principality
 	
-	capital = STATE_VENETIA
+	capital = STATE_LOMBARDY
 	cultures = { north_italian }
 }
 

@@ -4,6 +4,7 @@
 			# Eugene de Beauharnais
 			first_name = "Eugene"
 			last_name = "de_Beauharnais"
+			dna = dna_eugene_beauharnais
 			ruler = yes
 			birth_date = 1781.9.3
 			interest_group = ig_armed_forces
