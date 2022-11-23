@@ -5,6 +5,7 @@
 			#role = politician # Remove this line
 			first_name = Elisa
 			last_name = Bonaparte
+			dna = dna_elisa_bonaparte
 			female = yes
 			ruler = yes
 			birth_date = 1777.1.4
@@ -13,6 +14,24 @@
 			culture = cu:french
 			traits = {
 				imperious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}	
+
+		create_character = {
+			# Charles Louis, the future Charles II, Duke of Parma
+			#role = politician # Remove this line
+			first_name = Elisa
+			last_name = baciocchi	
+			female = yes
+			heir = yes
+			birth_date = 1806.6.3
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_moderate
+			culture = cu:french
+			traits = {
 			}
 			on_created = {
 				set_variable = is_married

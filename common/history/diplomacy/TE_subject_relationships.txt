@@ -159,12 +159,6 @@ DIPLOMACY = {
 			type = personal_union
 		}
 	}
-	c:PRU = {
-		create_diplomatic_pact = {
-			country = c:HOH
-			type = puppet
-		}
-	}
 	c:CHI = {
 		create_diplomatic_pact = {
 			country = c:TIB

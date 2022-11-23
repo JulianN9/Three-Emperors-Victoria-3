@@ -303,6 +303,7 @@
 		set_relations = { country = c:WUR value = 30 }
 		set_relations = { country = c:WUZ value = 30 }
 		set_relations = { country = c:BAV value = 30 }
+		set_relations = { country = c:HOH value = 30 }
 	}
 
 	# c:LOU = {

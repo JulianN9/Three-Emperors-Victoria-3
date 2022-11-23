@@ -60,3 +60,25 @@ NEU = {
 	capital = STATE_WEST_SWITZERLAND
 	is_named_from_capital = yes
 }
+
+ZPD = {
+	color = { 194 74 31 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { polish czech slovak }
+	capital = STATE_MAZOVIA
+}
+
+CFR = {
+	color = { 56  132  66 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { north_german }
+	capital = STATE_WESTPHALIA
+}

@@ -99,6 +99,10 @@
 			country = c:BAV	
 			type = customs_union
 		}
+		create_diplomatic_pact = {
+			country = c:HOH
+			type = customs_union
+		}
 	}
 
 	# c:SAX = {
